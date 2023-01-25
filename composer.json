@@ -29,6 +29,11 @@
 			"phpunit"
 		]
 	},
+	"extra": {
+		"branch-alias": {
+			"dev-php81": "1.8.x-dev"
+		}
+	},
 	"autoload": {
 		"psr-0": { "Less": "lib/" },
 		"classmap": ["lessc.inc.php"]
